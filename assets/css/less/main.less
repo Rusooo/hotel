@@ -5,7 +5,9 @@ body{
     margin: 0;
     padding: 0;
     background: @color;
-
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    
 }
 
 a{
@@ -44,11 +46,15 @@ ul li{
                 
                 li{
                     height: 2.6rem;
-                    border: 1px solid rgba(255,200,255,0.5);
+                    border: 1px solid rgba(255, 255, 255, 0.2);
                      display: flex;
                      justify-content: center;
                      align-items: center;
                      margin-left: 5px;
+                     border-radius: 5px;
+                     -moz-border-radius: 5px;
+                     -o-boder-radius: 5px;
+                     -ms-border-radius: 5px;
                    
                     span{
                         padding: 2px;
@@ -58,15 +64,61 @@ ul li{
                         color: #fff;
                         font-size: 11px;
                         margin-bottom: 3px;
+
+                        i{
+                            margin-top: 3px;
+                            font-size: 15px;
+                            &:hover{
+                                color: #fff;
+                            }
+
+                            
+                        }
+
                     }
                     a{
+                        margin-top: 5px;
                         padding: 2px 3px;
+                        font-size: 13px;
+                        font-weight: 600;
+                        &:hover{
+                            color: #fff;
+                            cursor: pointer;
+                            text-decoration: none;
+                        }
+                        .fa_menu{
+                            font-size: 25px;
+                            margin-top: -5px;
+                        }
+                        
+
+                        
                     }
                     
                 
                 }
             }
         
+        }
+    }
+
+    .hero{
+        width: 100%;
+        height: 80%;
+        background: url("../../img/sliders/borjomi.jpg") no-repeat center center;
+        
+        background-size: cover;
+        
+
+        .search_area{
+            background: rgb(255, 255, 255);
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 8%;
+            border-radius: 6px;
+            box-shadow: 1px 9px 26px 1px black;
         }
     }
 }
