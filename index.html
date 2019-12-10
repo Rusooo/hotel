@@ -1,23 +1,26 @@
-<html>
-    <head>
-     <link rel="stylesheet" href="assets/css/bootstrap-4.3.1/css/bootstrap.min.css"/>
-     <link rel="stylesheet" href="assets/css/css/main.css"/>
-     <linK rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
-     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
-    </head>
- <body>
-     <header id="header">
-      <div class="header__menu">
-        <div class="container-fluid">
-           <div class="row">
-               <div class="col-4">
-                    <div class="logo">
-                            <a href="#"><img src="assets/img/logo/Untitled-2.png" alt="TwoWings"/></a>
+<html lang="en">
 
+<head>
+    <link rel="stylesheet" href="assets/css/bootstrap-4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/css/main.css" />
+    <linK rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:400,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="header">
+        <div class="header__menu">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="logo">
+                            <a href="#"><img src="assets/img/logo/logo-3.png" alt="TwoWings" /></a>
                         </div>
-               </div>
-               <div class="col-8 d-flex align-items-end justfy-content-end">
-                    <div class="menu">
+                    </div>
+                    <div class="col-8 d-flex align-items-end justfy-content-end">
+                        <div class="menu">
                             <ul class="nav">
                                 <li class="navbar">
                                     <span><i class="fa fa-globe"></i></span>
@@ -25,39 +28,69 @@
                                 </li>
                                 <li class="navbar">
                                     <span><i class="fa fa-euro"></i></span>
-                                     <a href="#">GEL</a>
-                                 </li>
-                                 <li class="navbar">
-                                     <span><i class="fa fa-question"></i></span>
-                                         <a href="#">Support</a>
-                                     </li>
-                                     <li class="navbar">
-                                         <span><i class="fa fa-lock"></i></span>
-                                             <a href="#">My Profile</a>
-                                         </li>
-                                         <li class="navbar">
-                                        <a href="#"><i class="fa fa-bars fa_menu"></i></a>
-                                          </li>
+                                    <a href="#">GEL</a>
+                                </li>
+                                <li class="navbar">
+                                    <span><i class="fa fa-question"></i></span>
+                                    <a href="#">Support</a>
+                                </li>
+                                <li class="navbar">
+                                    <span><i class="fa fa-lock"></i></span>
+                                    <a href="#">My Profile</a>
+                                </li>
+                                <li class="navbar">
+                                    <a href="#"><i class="fa fa-bars fa_menu"></i></a>
+                                </li>
                             </ul>
                         </div>
-               </div>
-           </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="hero">
-          <div class="container">
-              <div class="row">
-                  <div class="col-12">
+        <div class="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
                         <div class="search_area">
-sdsd
+
+                            <form>
+                                <div class="container">
+                                    <div class="row d-flex">
+                                        <div class="col-3 border">
+                                            <label class="search_label">Country,City</label>
+                                            <input type="text" class="form-control" placeholder="Georgia, Borjomi" />
+                                        </div>
+                                        <div class="col-2 border">
+                                            <label class="search_label">Check-In</label>
+                                            <input type="date" name="bday" max="3000-12-31" min="2019-12-21"
+                                                class="form-control">
+                                        </div>
+                                        <div class="col-2 border">
+                                            <label class="search_label">Check-Out</label>
+                                            <input type="date" name="bday" max="3000-12-31" min="2019-12-21"
+                                                class="form-control">
+                                        </div>
+
+                                        <div class="col-2  border">
+                                            <label class="search_label">Person</label>
+                                            <input type="number" name="bday" max="10" min="1" value="1 Person"
+                                                class="form-control">
+                                        </div>
+
+                                        <div class="col-2 d-flex align-items-center justfy-content-end">
+                                            <input type="submit" name="search" value="Search" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
                         </div>
-                  </div>
-                  
-              </div>
-          </div>
-      </div>
-     </header>
+                    </div>
 
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
 
- </body>
 </html>
