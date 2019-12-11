@@ -11,6 +11,18 @@ a {
 ul li {
   list-style: none;
 }
+#header .slogan {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+  color: #ffffff;
+}
+#header .slogan .h1 {
+  font-weight: 200 !important;
+  font-size: 2.1rem;
+  text-shadow: 1px 1px 2px rgba(34, 143, 245, 0.6);
+  font-family: 'Nunito', sans-serif;
+}
 #header .header__menu {
   width: 100%;
   height: 50px;
@@ -76,8 +88,6 @@ ul li {
 #header .hero {
   width: 100%;
   height: 80%;
-  background: url("../../img/sliders/borjomi.jpg") no-repeat center center;
-  background-size: cover;
 }
 #header .hero .search_area {
   background: #ffffff;
@@ -85,8 +95,8 @@ ul li {
   height: 100px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 8%;
+  justify-content: space-around;
+  margin-top: 4%;
   padding-left: 15px;
   border-radius: 6px;
   box-shadow: 1px 9px 26px 1px black;
@@ -102,7 +112,8 @@ ul li {
 }
 #header .hero .search_area form .border {
   border-radius: 5px;
-  margin-left: 20 !important;
+  margin-left: 20px;
+  margin-top: 5px;
 }
 #header .hero .search_area form input {
   width: 100%;
@@ -117,6 +128,7 @@ ul li {
   background: #326fde;
   color: #ffffff;
   height: 100%;
+  margin-top: 5px;
 }
 #header .hero .search_area form input:focus {
   outline: none !important;
@@ -125,4 +137,44 @@ ul li {
 }
 #header .hero .search_area form .display-none {
   display: none;
+}
+#header .hero .search_area form .radio {
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  margin-top: 5px;
+  position: absolute;
+  top: 50px;
+  margin-left: -30px;
+  display: flex;
+  justify-content: space-around;
+}
+#header .hero .search_area form .radio input[type="radio"] {
+  width: 15px;
+  height: 15px;
+  background: #326fde;
+}
+#header .hero .search_area form .radio label {
+  color: #000;
+  margin-left: -20px;
+  font-size: 13px;
+}
+#header .hero .search_area form .check_in {
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 0 !important;
+  margin-top: 5px;
+}
+#header .hero .search_area form .check_out {
+  border: 1px solid #dee2e6!important;
+  border-radius: 5px;
+  margin-left: 0 !important;
+  margin-top: 5px;
+}
+#header .hero .search_area form .cf_noneMargin {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }

@@ -4,9 +4,14 @@
     <link rel="stylesheet" href="assets/css/bootstrap-4.3.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/css/main.css" />
     <linK rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-4.3.1/css/bootstrap-datepicker.css" />
     <link
         href="https://fonts.googleapis.com/css?family=Montserrat:400,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese"
         rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
 </head>
 
 <body>
@@ -47,28 +52,41 @@
                 </div>
             </div>
         </div>
-        <div class="hero">
+        <div class="hero"
+            style="background: url('assets/img/sliders/kobuleti2.jpg') no-repeat center center; background-size: cover;">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
+                        <div class="slogan">
+                            <p class="h1">Find hotels, hostels, and apartments</p>
+                        </div>
+
                         <div class="search_area">
 
                             <form>
-                                <div class="container">
-                                    <div class="row d-flex">
+                                <div class="container-fluid cf_noneMargin">
+                                    <div class="row">
                                         <div class="col-3 border">
-                                            <label class="search_label">Country,City</label>
-                                            <input type="text" class="form-control" placeholder="Georgia, Borjomi" />
+                                            <label class="search_label">Destination</label>
+                                            <input type="text" class="form-control" placeholder="City,Hotel" />
+                                            <div class="radio">
+                                                <input type="radio" name="on_off" class="form-control" checked
+                                                    value="on" />
+                                                <label>Leisure </label>
+
+                                                <input type="radio" name="on_off" class="form-control" value="off" />
+                                                <label>Treatment</label>
+                                            </div>
                                         </div>
-                                        <div class="col-2 border">
+                                        <div class="col-2 check_in">
                                             <label class="search_label">Check-In</label>
-                                            <input type="date" name="bday" max="3000-12-31" min="2019-12-21"
-                                                class="form-control">
+                                            <input type="text" name="bday" autocomplete="off" class="datepicker"
+                                                max="3000-12-31" min="2019-12-21" class="form-control">
                                         </div>
-                                        <div class="col-2 border">
+                                        <div class="col-2 check_out">
                                             <label class="search_label">Check-Out</label>
-                                            <input type="date" name="bday" max="3000-12-31" min="2019-12-21"
-                                                class="form-control">
+                                            <input type="text" name="bday" autocomplete="off" class="datepicker"
+                                                max="3000-12-31" min="2019-12-21" class="form-control">
                                         </div>
 
                                         <div class="col-2  border">
@@ -91,6 +109,10 @@
             </div>
         </div>
     </header>
+    <script src="assets/js/jquery-google-cdn-3-4-1.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
