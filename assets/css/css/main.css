@@ -87,18 +87,20 @@ ul li {
 }
 #header .hero {
   width: 100%;
-  height: 80%;
+  height: 70%;
 }
 #header .hero .search_area {
   background: #ffffff;
   width: 100%;
-  height: 100px;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin-top: 4%;
   padding-left: 15px;
-  border-radius: 6px;
+  border-radius: 5px;
   box-shadow: 1px 9px 26px 1px black;
 }
 #header .hero .search_area form {
@@ -123,11 +125,12 @@ ul li {
   overflow: hidden;
   outline: none !important;
   font-weight: 600;
+  background: transparent;
 }
 #header .hero .search_area form input[type="submit"] {
   background: #326fde;
   color: #ffffff;
-  height: 100%;
+  height: 90%;
   margin-top: 5px;
 }
 #header .hero .search_area form input:focus {
@@ -161,16 +164,26 @@ ul li {
 }
 #header .hero .search_area form .check_in {
   border: 1px solid #dee2e6;
-  border-radius: 5px;
+  border-radius: 5px 0 0 5px;
   margin-left: 20px;
   margin-right: 0 !important;
   margin-top: 5px;
 }
+#header .hero .search_area form .check_in input {
+  height: 20px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
 #header .hero .search_area form .check_out {
   border: 1px solid #dee2e6!important;
-  border-radius: 5px;
+  border-radius: 0 5px 5px 0;
   margin-left: 0 !important;
   margin-top: 5px;
+}
+#header .hero .search_area form .check_out input {
+  height: 20px;
+  margin-top: 10px;
+  padding-left: 10px;
 }
 #header .hero .search_area form .cf_noneMargin {
   margin-left: 0 !important;
