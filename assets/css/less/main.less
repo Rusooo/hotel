@@ -1,8 +1,8 @@
 @import "fonts.css";
-@color: #fff;
+@color: rgb(220, 219, 219);
 @white: #fff;
 @header_menu_color: #326fde;
-
+@borders: rgba(168, 166, 166,0.5);
 
 body{
     margin: 0;
@@ -11,8 +11,11 @@ body{
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     user-select: none;
+
     
 }
+
+.MainHome{
 
 a{
     color: #fff;
@@ -292,7 +295,18 @@ ul li{
 }
 
 #support_section{
+
     margin-top: 2em;
+
+    .support_area{
+        &::before{
+            content: "";
+            display: block;
+            border-top: 1px solid @borders;
+            margin-top: 2.2em;
+            margin-bottom: -1.5em;
+        }
+    }
     .img{
         width: auto;
         img{
@@ -341,10 +355,18 @@ ul li{
 
  }
  .sp1{
+     font-size: 1.3em;
      color: @header_menu_color;
+     font-weight: 500;
+     font-family: "Montserrat Semibold",sans-serif;
+     i{
+        font-size: 1.2em;
+        margin-right: 0.5em;
+        color: #8d8e9788;
+     }
  }
  .load_more_inoframtion{
-     border-top: 1px solid rgba(168, 166, 166,0.5);
+     border-top: 1px solid @borders;
      padding-bottom: 2em;
      display: flex;
      align-items: center;
@@ -368,4 +390,71 @@ ul li{
         }
     }
  }
+ 
+}
+
+/*Section 2 subscript block start*/
+#subscript_secton{
+    .subscript_area{
+    width: 100%;
+    height: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    }
+    .subscript_menu{
+        width: 80%;
+        height: 180px;
+        border:1px dashed #cecece;
+        
+    }
+}
+/*Section 2 subscript block end*/
+
+/*Section 3 top location block start*/
+#top_locations{
+    
+    margin-top: 30px;
+
+    .t-locations_area{
+        width: 100%;
+        p{
+            font-size: 1.3em ;
+            margin-bottom: 15px;
+            color: @header_menu_color;
+            font-weight: 500;
+            font-family: "Montserrat Semibold",sans-serif;
+            i{
+                font-size: 1.2em;
+                margin-right: 0.5em;
+                color: #8d8e9788;
+            }
+        }
+
+        &::before{
+            content: "";
+            display: block;
+            border-top: 1px solid @borders;
+            margin-bottom: 20px;
+        }
+
+        &::after{
+            content: "";
+            display: block;
+            margin-bottom: 5px;
+        }
+    }
+
+   .top-locations_area{
+
+
+       img{
+         width: 100%;
+         height: 10em;
+       }
+
+   } 
+}
+/*Section 3 top location block end*/
+
 }

@@ -2,18 +2,24 @@
 body {
   margin: 0;
   padding: 0;
-  background: #ffffff;
+  background: #dcdbdb;
   font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
   user-select: none;
 }
-a {
+.MainHome {
+  /*Section 2 subscript block start*/
+  /*Section 2 subscript block end*/
+  /*Section 3 top location block start*/
+  /*Section 3 top location block end*/
+}
+.MainHome a {
   color: #fff;
 }
-ul li {
+.MainHome ul li {
   list-style: none;
 }
-#header .header__menu {
+.MainHome #header .header__menu {
   width: 100%;
   height: 50px;
   background: #326fde;
@@ -21,24 +27,24 @@ ul li {
   position: fixed;
   z-index: 100;
 }
-#header .header__menu .stretch {
+.MainHome #header .header__menu .stretch {
   margin-top: 4px;
 }
-#header .header__menu .logo {
+.MainHome #header .header__menu .logo {
   width: 44px;
   height: 44px;
   margin-top: 3px;
 }
-#header .header__menu .logo img {
+.MainHome #header .header__menu .logo img {
   width: 100%;
   height: 100%;
 }
-#header .header__menu .menu {
+.MainHome #header .header__menu .menu {
   position: absolute;
   float: right;
   right: 0;
 }
-#header .header__menu .menu ul li {
+.MainHome #header .header__menu .menu ul li {
   height: 2.6rem;
   border: 1px solid rgba(255, 255, 255, 0.2);
   display: flex;
@@ -50,7 +56,7 @@ ul li {
   -o-boder-radius: 5px;
   -ms-border-radius: 5px;
 }
-#header .header__menu .menu ul li span {
+.MainHome #header .header__menu .menu ul li span {
   padding: 2px;
   display: block;
   position: absolute;
@@ -59,47 +65,47 @@ ul li {
   font-size: 11px;
   margin-bottom: 3px;
 }
-#header .header__menu .menu ul li span i {
+.MainHome #header .header__menu .menu ul li span i {
   margin-top: 3px;
   font-size: 15px;
 }
-#header .header__menu .menu ul li span i:hover {
+.MainHome #header .header__menu .menu ul li span i:hover {
   color: #c8c8c8;
 }
-#header .header__menu .menu ul li a {
+.MainHome #header .header__menu .menu ul li a {
   margin-top: 5px;
   padding: 2px 3px;
   font-size: 13px;
   font-weight: 600;
 }
-#header .header__menu .menu ul li a:hover {
+.MainHome #header .header__menu .menu ul li a:hover {
   color: #c8c8c8;
   cursor: pointer;
   text-decoration: none;
 }
-#header .header__menu .menu ul li a .fa_menu {
+.MainHome #header .header__menu .menu ul li a .fa_menu {
   font-size: 25px;
   margin-top: -5px;
 }
-#header .slogan {
+.MainHome #header .slogan {
   display: flex;
   justify-content: center;
   margin-top: 4%;
   color: #ffffff;
 }
-#header .slogan .h1 {
+.MainHome #header .slogan .h1 {
   font-weight: 200 !important;
   font-size: 2.1rem;
   text-shadow: 1px 1px 2px rgba(34, 143, 245, 0.6);
   font-family: 'Nunito', sans-serif;
 }
-#header .hero {
+.MainHome #header .hero {
   width: 100%;
   height: 70%;
   position: relative;
   top: 50px;
 }
-#header .hero .search_area {
+.MainHome #header .hero .search_area {
   background: #ffffff;
   width: 100%;
   height: 120px;
@@ -113,21 +119,21 @@ ul li {
   border-radius: 5px;
   box-shadow: 1px 9px 26px 1px black;
 }
-#header .hero .search_area form {
+.MainHome #header .hero .search_area form {
   width: 95%;
 }
-#header .hero .search_area form .search_label {
+.MainHome #header .hero .search_area form .search_label {
   font-size: 11px;
   margin-left: -6px;
   margin-bottom: -7px;
   padding-left: 15px;
 }
-#header .hero .search_area form .border {
+.MainHome #header .hero .search_area form .border {
   border-radius: 5px;
   margin-left: 20px;
   margin-top: 5px;
 }
-#header .hero .search_area form input {
+.MainHome #header .hero .search_area form input {
   width: 100%;
   font-size: 16px;
   height: 40px;
@@ -137,22 +143,22 @@ ul li {
   font-weight: 600;
   background: transparent;
 }
-#header .hero .search_area form input[type="submit"] {
+.MainHome #header .hero .search_area form input[type="submit"] {
   background: #326fde;
-  color: #ffffff;
+  color: #dcdbdb;
   height: 90%;
   margin-top: 5px;
 }
-#header .hero .search_area form input:focus {
+.MainHome #header .hero .search_area form input:focus {
   outline: none !important;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-#header .hero .search_area form .display-none {
+.MainHome #header .hero .search_area form .display-none {
   display: none;
 }
-#header .hero .search_area form .radio {
-  color: #ffffff;
+.MainHome #header .hero .search_area form .radio {
+  color: #dcdbdb;
   width: 100%;
   height: 100%;
   margin-top: 5px;
@@ -162,67 +168,74 @@ ul li {
   display: flex;
   justify-content: space-around;
 }
-#header .hero .search_area form .radio input[type="radio"] {
+.MainHome #header .hero .search_area form .radio input[type="radio"] {
   width: 15px;
   height: 15px;
   background: #326fde;
 }
-#header .hero .search_area form .radio label {
+.MainHome #header .hero .search_area form .radio label {
   color: #000;
   margin-left: -20px;
   font-size: 13px;
 }
-#header .hero .search_area form .check_in {
+.MainHome #header .hero .search_area form .check_in {
   border: 1px solid #dee2e6;
   border-radius: 5px 0 0 5px;
   margin-left: 20px;
   margin-right: 0 !important;
   margin-top: 5px;
 }
-#header .hero .search_area form .check_in input {
+.MainHome #header .hero .search_area form .check_in input {
   height: 20px;
   margin-top: 10px;
   padding-left: 10px;
 }
-#header .hero .search_area form .check_out {
+.MainHome #header .hero .search_area form .check_out {
   border: 1px solid #dee2e6!important;
   border-radius: 0 5px 5px 0;
   margin-left: 0 !important;
   margin-top: 5px;
 }
-#header .hero .search_area form .check_out input {
+.MainHome #header .hero .search_area form .check_out input {
   height: 20px;
   margin-top: 10px;
   padding-left: 10px;
 }
-#header .hero .search_area form .cf_noneMargin {
+.MainHome #header .hero .search_area form .cf_noneMargin {
   margin-left: 0 !important;
   margin-right: 0 !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
-#header .megamenu li a {
+.MainHome #header .megamenu li a {
   font-size: 13px !important;
   font-weight: 600;
   font-family: 'Montserrat', sans-serif;
 }
-#header .megamenu li a:hover {
+.MainHome #header .megamenu li a:hover {
   color: #c8c8c8;
 }
-#support_section {
+.MainHome #support_section {
   margin-top: 2em;
 }
-#support_section .img {
+.MainHome #support_section .support_area::before {
+  content: "";
+  display: block;
+  border-top: 1px solid rgba(168, 166, 166, 0.5);
+  margin-top: 2.2em;
+  margin-bottom: -1.5em;
+}
+.MainHome #support_section .img {
   width: auto;
 }
-#support_section .img img {
+.MainHome #support_section .img img {
   max-width: 100%;
   height: 12em;
   border-radius: 8px;
   margin-bottom: 1.3em;
   box-shadow: #000000 1px 3px 12px -4px;
 }
-#support_section .img img:hover {
+.MainHome #support_section .img img:hover {
   filter: blur(0.1em) grayscale(100%);
   -ms-filter: blur(0.1em) grayscale(100%);
   -webkit-filter: blur(0.1em) grayscale(100%);
@@ -234,20 +247,20 @@ ul li {
   -moz-transition: 0.5s linear;
   -o-transition: 0.5s linear;
 }
-#support_section .other {
+.MainHome #support_section .other {
   margin-bottom: 2em;
   width: 100%;
 }
-#support_section .other a {
+.MainHome #support_section .other a {
   font-family: "Myriad pro Light";
   font-size: 1.3em;
   color: #000;
 }
-#support_section .other a:hover {
+.MainHome #support_section .other a:hover {
   color: #141414;
   text-decoration: none;
 }
-#support_section .other span {
+.MainHome #support_section .other span {
   display: block;
   position: relative;
   float: right;
@@ -256,16 +269,24 @@ ul li {
   font-size: 0.7em;
   top: -1.3em;
 }
-#support_section .sp1 {
+.MainHome #support_section .sp1 {
+  font-size: 1.3em;
   color: #326fde;
+  font-weight: 500;
+  font-family: "Montserrat Semibold", sans-serif;
 }
-#support_section .load_more_inoframtion {
+.MainHome #support_section .sp1 i {
+  font-size: 1.2em;
+  margin-right: 0.5em;
+  color: #8d8e9788;
+}
+.MainHome #support_section .load_more_inoframtion {
   border-top: 1px solid rgba(168, 166, 166, 0.5);
   padding-bottom: 2em;
   display: flex;
   align-items: center;
 }
-#support_section .load_more_inoframtion a {
+.MainHome #support_section .load_more_inoframtion a {
   margin: 0 auto;
   display: inline-block;
   width: auto;
@@ -278,7 +299,52 @@ ul li {
   cursor: pointer;
   user-select: none;
 }
-#support_section .load_more_inoframtion a:hover {
+.MainHome #support_section .load_more_inoframtion a:hover {
   text-decoration: none;
   background: #cedcf7;
+}
+.MainHome #subscript_secton .subscript_area {
+  width: 100%;
+  height: 100%;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+.MainHome #subscript_secton .subscript_menu {
+  width: 80%;
+  height: 180px;
+  border: 1px dashed #cecece;
+}
+.MainHome #top_locations {
+  margin-top: 30px;
+}
+.MainHome #top_locations .t-locations_area {
+  width: 100%;
+}
+.MainHome #top_locations .t-locations_area p {
+  font-size: 1.3em ;
+  margin-bottom: 15px;
+  color: #326fde;
+  font-weight: 500;
+  font-family: "Montserrat Semibold", sans-serif;
+}
+.MainHome #top_locations .t-locations_area p i {
+  font-size: 1.2em;
+  margin-right: 0.5em;
+  color: #8d8e9788;
+}
+.MainHome #top_locations .t-locations_area::before {
+  content: "";
+  display: block;
+  border-top: 1px solid rgba(168, 166, 166, 0.5);
+  margin-bottom: 20px;
+}
+.MainHome #top_locations .t-locations_area::after {
+  content: "";
+  display: block;
+  margin-bottom: 5px;
+}
+.MainHome #top_locations .top-locations_area img {
+  width: 100%;
+  height: 10em;
 }
